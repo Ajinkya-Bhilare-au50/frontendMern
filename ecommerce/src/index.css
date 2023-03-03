@@ -1,0 +1,49 @@
+main {
+  min-height: 80vh;
+}
+h3 {
+  padding: 1rem 0;
+}
+.rating span {
+  margin: 0.1rem;
+}
+/* .simple {
+  text-align: center;
+  text-overflow: ellipsis;
+  margin: 30px 15px;
+  font-size: 18px;
+} */
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* .card-title {
+  font: 20px arial, sans-serif;
+  text-align: left;
+  padding: 0px 5px 5px 5px;
+} */
+
+.card-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* Card look */
+  transition: 0.3s;
+  background-color: white;
+  border-radius: 4px;
+  /* Round corners */
+  border-left: 5px solid #5f37ff;
+  /* Blue left border */
+}
+
+.card-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  text-align: left;
+  padding: 10px 16px;
+}
+
+.buttoncolor {
+  background-color: #fc5185 !important;
+}
